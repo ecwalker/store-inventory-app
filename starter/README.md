@@ -16,7 +16,7 @@ Open the starter project in Android Studio
 
 ### Steps
 
-1. Open the starter project in Android Studio
+1. [x] Open the starter project in Android Studio
 
 2. Add the navigation libraries to the app build.gradle file
 
