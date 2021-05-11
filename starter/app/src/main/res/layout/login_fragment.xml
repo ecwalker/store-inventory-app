@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Although layout is simple, the sign up and sign in buttons are arranged horizontal to each other,
+while the other views are arranged vertically. Therefore ConstraintLayout used.
+-->
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"

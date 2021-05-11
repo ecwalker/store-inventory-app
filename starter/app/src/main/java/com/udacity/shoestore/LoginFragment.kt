@@ -1,13 +1,11 @@
 package com.udacity.shoestore
 
 import android.os.Bundle
-import android.view.ContextMenu
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import kotlinx.android.synthetic.main.login_fragment.view.*
 import androidx.databinding.DataBindingUtil
 import com.udacity.shoestore.databinding.LoginFragmentBinding
 

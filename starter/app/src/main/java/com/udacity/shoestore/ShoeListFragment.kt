@@ -24,7 +24,6 @@ class ShoeListFragment: Fragment() {
         val binding: ShoeListFragmentBinding = DataBindingUtil.inflate(
             inflater, R.layout.shoe_list_fragment, container, false)
 
-        //binding.vm = viewModel
         binding.setLifecycleOwner(this)
 
         binding.floatingActionButton.setOnClickListener() {
@@ -33,11 +32,12 @@ class ShoeListFragment: Fragment() {
 
 
         //Observe the shoes (list) variable from the ShoeViewModel
-        //TODO get shoe instances showing up in the child layout
         viewModel.shoeList.observe(viewLifecycleOwner, Observer { newShoeList ->
             for (shoe in newShoeList) {
                 DataBindingUtil.inflate<ShoeListIterableBinding>( inflater, R.layout.shoe_list_iterable,
-                    binding.shoeListDisplay, true)
+                    binding.shoeListDisplay, true).apply {
+                    this.shoe = shoe
+                }
             }
         })
 

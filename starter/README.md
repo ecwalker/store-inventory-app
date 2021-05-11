@@ -44,7 +44,7 @@ Open the starter project in Android Studio
    * At least 2 textviews
    * A navigation button with actions to navigate to the shoe list screen
 
-8. Create a class that extends ViewModel
+8. [x] Create a class that extends ViewModel
 
    *  Use a LiveData field that returns the list of shoes
 
@@ -72,7 +72,7 @@ Open the starter project in Android Studio
     
     * Pop to non-inclusive added to remove welcome and instruction fragments from backstack
 
-13. In the Shoe List screen:
+13. [x] In the Shoe List screen:
 
     * Use an Activity level ViewModel to hold a list of Shoes (use by activityViewModels)
     * Observe the shoes variable from the ViewModel
