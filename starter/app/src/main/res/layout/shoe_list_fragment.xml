@@ -41,142 +41,11 @@
             app:layout_constraintTop_toBottomOf="@+id/storeName_shoe_textView">
 
             <LinearLayout
+                android:id="@+id/shoe_list_display"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/shoe1_textView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/temp_profile_summary"
-                    android:textSize="24sp"
-                    android:paddingTop="24sp"
-                    android:paddingBottom="24sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"/>
-                <TextView
-                    android:id="@+id/shoe2_textView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/temp_profile_summary"
-                    android:textSize="24sp"
-                    android:paddingTop="24sp"
-                    android:paddingBottom="24sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"/>
-                <TextView
-                    android:id="@+id/shoe3_textView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/temp_profile_summary"
-                    android:textSize="24sp"
-                    android:paddingTop="24sp"
-                    android:paddingBottom="24sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"/>
-                <TextView
-                    android:id="@+id/shoe4_textView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/temp_profile_summary"
-                    android:textSize="24sp"
-                    android:paddingTop="24sp"
-                    android:paddingBottom="24sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"/>
-                <TextView
-                    android:id="@+id/shoe5_textView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/temp_profile_summary"
-                    android:textSize="24sp"
-                    android:paddingTop="24sp"
-                    android:paddingBottom="24sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"/>
-                <TextView
-                    android:id="@+id/shoe6_textView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/temp_profile_summary"
-                    android:textSize="24sp"
-                    android:paddingTop="24sp"
-                    android:paddingBottom="24sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"/>
-                <TextView
-                    android:id="@+id/shoe7_textView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/temp_profile_summary"
-                    android:textSize="24sp"
-                    android:paddingTop="24sp"
-                    android:paddingBottom="24sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"/>
-                <TextView
-                    android:id="@+id/shoe8_textView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/temp_profile_summary"
-                    android:textSize="24sp"
-                    android:paddingTop="24sp"
-                    android:paddingBottom="24sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"/>
-                <TextView
-                    android:id="@+id/shoe9_textView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/temp_profile_summary"
-                    android:textSize="24sp"
-                    android:paddingTop="24sp"
-                    android:paddingBottom="24sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"/>
-                <TextView
-                    android:id="@+id/shoe10_textView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/temp_profile_summary"
-                    android:textSize="24sp"
-                    android:paddingTop="24sp"
-                    android:paddingBottom="24sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"/>
-                <TextView
-                    android:id="@+id/shoe11_textView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/temp_profile_summary"
-                    android:textSize="24sp"
-                    android:paddingTop="24sp"
-                    android:paddingBottom="24sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"/>
-                <TextView
-                    android:id="@+id/shoe12_textView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/temp_profile_summary"
-                    android:textSize="24sp"
-                    android:paddingTop="24sp"
-                    android:paddingBottom="24sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"/>
-                <TextView
-                    android:id="@+id/shoe13_textView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/temp_profile_summary"
-                    android:textSize="24sp"
-                    android:paddingTop="24sp"
-                    android:paddingBottom="24sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"/>
             </LinearLayout>
-
 
         </ScrollView>
 
@@ -184,11 +53,11 @@
             android:id="@+id/floatingActionButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
             android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
             android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_add" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
